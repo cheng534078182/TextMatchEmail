@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		242776CE1C8EAC4C0088DA22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 242776CD1C8EAC4C0088DA22 /* main.m */; };
+		242776D11C8EAC4C0088DA22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 242776D01C8EAC4C0088DA22 /* AppDelegate.m */; };
+		242776D41C8EAC4C0088DA22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242776D31C8EAC4C0088DA22 /* ViewController.m */; };
+		242776D71C8EAC4C0088DA22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242776D51C8EAC4C0088DA22 /* Main.storyboard */; };
+		242776D91C8EAC4C0088DA22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242776D81C8EAC4C0088DA22 /* Assets.xcassets */; };
+		242776DC1C8EAC4C0088DA22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242776DA1C8EAC4C0088DA22 /* LaunchScreen.storyboard */; };
+		242776E71C8EAC4C0088DA22 /* TextMatchEmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 242776E61C8EAC4C0088DA22 /* TextMatchEmailTests.m */; };
+		242776F21C8EAC4C0088DA22 /* TextMatchEmailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 242776F11C8EAC4C0088DA22 /* TextMatchEmailUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		242776E31C8EAC4C0088DA22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242776C11C8EAC4B0088DA22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 242776C81C8EAC4C0088DA22;
+			remoteInfo = TextMatchEmail;
+		};
+		242776EE1C8EAC4C0088DA22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242776C11C8EAC4B0088DA22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 242776C81C8EAC4C0088DA22;
+			remoteInfo = TextMatchEmail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		242776C91C8EAC4C0088DA22 /* TextMatchEmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextMatchEmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		242776CD1C8EAC4C0088DA22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		242776CF1C8EAC4C0088DA22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		242776D01C8EAC4C0088DA22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		242776D21C8EAC4C0088DA22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		242776D31C8EAC4C0088DA22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		242776D61C8EAC4C0088DA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		242776D81C8EAC4C0088DA22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		242776DB1C8EAC4C0088DA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		242776DD1C8EAC4C0088DA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		242776E21C8EAC4C0088DA22 /* TextMatchEmailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextMatchEmailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		242776E61C8EAC4C0088DA22 /* TextMatchEmailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextMatchEmailTests.m; sourceTree = "<group>"; };
+		242776E81C8EAC4C0088DA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		242776ED1C8EAC4C0088DA22 /* TextMatchEmailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextMatchEmailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		242776F11C8EAC4C0088DA22 /* TextMatchEmailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextMatchEmailUITests.m; sourceTree = "<group>"; };
+		242776F31C8EAC4C0088DA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		242776C61C8EAC4C0088DA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242776DF1C8EAC4C0088DA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242776EA1C8EAC4C0088DA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		242776C01C8EAC4B0088DA22 = {
+			isa = PBXGroup;
+			children = (
+				242776CB1C8EAC4C0088DA22 /* TextMatchEmail */,
+				242776E51C8EAC4C0088DA22 /* TextMatchEmailTests */,
+				242776F01C8EAC4C0088DA22 /* TextMatchEmailUITests */,
+				242776CA1C8EAC4C0088DA22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		242776CA1C8EAC4C0088DA22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				242776C91C8EAC4C0088DA22 /* TextMatchEmail.app */,
+				242776E21C8EAC4C0088DA22 /* TextMatchEmailTests.xctest */,
+				242776ED1C8EAC4C0088DA22 /* TextMatchEmailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		242776CB1C8EAC4C0088DA22 /* TextMatchEmail */ = {
+			isa = PBXGroup;
+			children = (
+				242776CF1C8EAC4C0088DA22 /* AppDelegate.h */,
+				242776D01C8EAC4C0088DA22 /* AppDelegate.m */,
+				242776D21C8EAC4C0088DA22 /* ViewController.h */,
+				242776D31C8EAC4C0088DA22 /* ViewController.m */,
+				242776D51C8EAC4C0088DA22 /* Main.storyboard */,
+				242776D81C8EAC4C0088DA22 /* Assets.xcassets */,
+				242776DA1C8EAC4C0088DA22 /* LaunchScreen.storyboard */,
+				242776DD1C8EAC4C0088DA22 /* Info.plist */,
+				242776CC1C8EAC4C0088DA22 /* Supporting Files */,
+			);
+			path = TextMatchEmail;
+			sourceTree = "<group>";
+		};
+		242776CC1C8EAC4C0088DA22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				242776CD1C8EAC4C0088DA22 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		242776E51C8EAC4C0088DA22 /* TextMatchEmailTests */ = {
+			isa = PBXGroup;
+			children = (
+				242776E61C8EAC4C0088DA22 /* TextMatchEmailTests.m */,
+				242776E81C8EAC4C0088DA22 /* Info.plist */,
+			);
+			path = TextMatchEmailTests;
+			sourceTree = "<group>";
+		};
+		242776F01C8EAC4C0088DA22 /* TextMatchEmailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				242776F11C8EAC4C0088DA22 /* TextMatchEmailUITests.m */,
+				242776F31C8EAC4C0088DA22 /* Info.plist */,
+			);
+			path = TextMatchEmailUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		242776C81C8EAC4C0088DA22 /* TextMatchEmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242776F61C8EAC4C0088DA22 /* Build configuration list for PBXNativeTarget "TextMatchEmail" */;
+			buildPhases = (
+				242776C51C8EAC4C0088DA22 /* Sources */,
+				242776C61C8EAC4C0088DA22 /* Frameworks */,
+				242776C71C8EAC4C0088DA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextMatchEmail;
+			productName = TextMatchEmail;
+			productReference = 242776C91C8EAC4C0088DA22 /* TextMatchEmail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		242776E11C8EAC4C0088DA22 /* TextMatchEmailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242776F91C8EAC4C0088DA22 /* Build configuration list for PBXNativeTarget "TextMatchEmailTests" */;
+			buildPhases = (
+				242776DE1C8EAC4C0088DA22 /* Sources */,
+				242776DF1C8EAC4C0088DA22 /* Frameworks */,
+				242776E01C8EAC4C0088DA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				242776E41C8EAC4C0088DA22 /* PBXTargetDependency */,
+			);
+			name = TextMatchEmailTests;
+			productName = TextMatchEmailTests;
+			productReference = 242776E21C8EAC4C0088DA22 /* TextMatchEmailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		242776EC1C8EAC4C0088DA22 /* TextMatchEmailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242776FC1C8EAC4C0088DA22 /* Build configuration list for PBXNativeTarget "TextMatchEmailUITests" */;
+			buildPhases = (
+				242776E91C8EAC4C0088DA22 /* Sources */,
+				242776EA1C8EAC4C0088DA22 /* Frameworks */,
+				242776EB1C8EAC4C0088DA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				242776EF1C8EAC4C0088DA22 /* PBXTargetDependency */,
+			);
+			name = TextMatchEmailUITests;
+			productName = TextMatchEmailUITests;
+			productReference = 242776ED1C8EAC4C0088DA22 /* TextMatchEmailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		242776C11C8EAC4B0088DA22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "杭州中新力合-程朋";
+				TargetAttributes = {
+					242776C81C8EAC4C0088DA22 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					242776E11C8EAC4C0088DA22 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 242776C81C8EAC4C0088DA22;
+					};
+					242776EC1C8EAC4C0088DA22 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 242776C81C8EAC4C0088DA22;
+					};
+				};
+			};
+			buildConfigurationList = 242776C41C8EAC4B0088DA22 /* Build configuration list for PBXProject "TextMatchEmail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 242776C01C8EAC4B0088DA22;
+			productRefGroup = 242776CA1C8EAC4C0088DA22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				242776C81C8EAC4C0088DA22 /* TextMatchEmail */,
+				242776E11C8EAC4C0088DA22 /* TextMatchEmailTests */,
+				242776EC1C8EAC4C0088DA22 /* TextMatchEmailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		242776C71C8EAC4C0088DA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242776DC1C8EAC4C0088DA22 /* LaunchScreen.storyboard in Resources */,
+				242776D91C8EAC4C0088DA22 /* Assets.xcassets in Resources */,
+				242776D71C8EAC4C0088DA22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242776E01C8EAC4C0088DA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242776EB1C8EAC4C0088DA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		242776C51C8EAC4C0088DA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242776D41C8EAC4C0088DA22 /* ViewController.m in Sources */,
+				242776D11C8EAC4C0088DA22 /* AppDelegate.m in Sources */,
+				242776CE1C8EAC4C0088DA22 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242776DE1C8EAC4C0088DA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242776E71C8EAC4C0088DA22 /* TextMatchEmailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242776E91C8EAC4C0088DA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242776F21C8EAC4C0088DA22 /* TextMatchEmailUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		242776E41C8EAC4C0088DA22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 242776C81C8EAC4C0088DA22 /* TextMatchEmail */;
+			targetProxy = 242776E31C8EAC4C0088DA22 /* PBXContainerItemProxy */;
+		};
+		242776EF1C8EAC4C0088DA22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 242776C81C8EAC4C0088DA22 /* TextMatchEmail */;
+			targetProxy = 242776EE1C8EAC4C0088DA22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		242776D51C8EAC4C0088DA22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				242776D61C8EAC4C0088DA22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		242776DA1C8EAC4C0088DA22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				242776DB1C8EAC4C0088DA22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		242776F41C8EAC4C0088DA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		242776F51C8EAC4C0088DA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		242776F71C8EAC4C0088DA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextMatchEmail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengxin.TextMatchEmail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		242776F81C8EAC4C0088DA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextMatchEmail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengxin.TextMatchEmail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		242776FA1C8EAC4C0088DA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TextMatchEmailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengxin.TextMatchEmailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextMatchEmail.app/TextMatchEmail";
+			};
+			name = Debug;
+		};
+		242776FB1C8EAC4C0088DA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TextMatchEmailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengxin.TextMatchEmailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextMatchEmail.app/TextMatchEmail";
+			};
+			name = Release;
+		};
+		242776FD1C8EAC4C0088DA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextMatchEmailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengxin.TextMatchEmailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TextMatchEmail;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		242776FE1C8EAC4C0088DA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextMatchEmailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengxin.TextMatchEmailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TextMatchEmail;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		242776C41C8EAC4B0088DA22 /* Build configuration list for PBXProject "TextMatchEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242776F41C8EAC4C0088DA22 /* Debug */,
+				242776F51C8EAC4C0088DA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242776F61C8EAC4C0088DA22 /* Build configuration list for PBXNativeTarget "TextMatchEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242776F71C8EAC4C0088DA22 /* Debug */,
+				242776F81C8EAC4C0088DA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		242776F91C8EAC4C0088DA22 /* Build configuration list for PBXNativeTarget "TextMatchEmailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242776FA1C8EAC4C0088DA22 /* Debug */,
+				242776FB1C8EAC4C0088DA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		242776FC1C8EAC4C0088DA22 /* Build configuration list for PBXNativeTarget "TextMatchEmailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242776FD1C8EAC4C0088DA22 /* Debug */,
+				242776FE1C8EAC4C0088DA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 242776C11C8EAC4B0088DA22 /* Project object */;
+}
