@@ -15,6 +15,7 @@
 		242776DC1C8EAC4C0088DA22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242776DA1C8EAC4C0088DA22 /* LaunchScreen.storyboard */; };
 		242776E71C8EAC4C0088DA22 /* TextMatchEmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 242776E61C8EAC4C0088DA22 /* TextMatchEmailTests.m */; };
 		242776F21C8EAC4C0088DA22 /* TextMatchEmailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 242776F11C8EAC4C0088DA22 /* TextMatchEmailUITests.m */; };
+		242777001C8EAEE60088DA22 /* SimulatorScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 242776FF1C8EAEE60088DA22 /* SimulatorScreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		242776ED1C8EAC4C0088DA22 /* TextMatchEmailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextMatchEmailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		242776F11C8EAC4C0088DA22 /* TextMatchEmailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextMatchEmailUITests.m; sourceTree = "<group>"; };
 		242776F31C8EAC4C0088DA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		242776FF1C8EAEE60088DA22 /* SimulatorScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimulatorScreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		242776CC1C8EAC4C0088DA22 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				242776FF1C8EAEE60088DA22 /* SimulatorScreen.png */,
 				242776CD1C8EAC4C0088DA22 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				242776DC1C8EAC4C0088DA22 /* LaunchScreen.storyboard in Resources */,
+				242777001C8EAEE60088DA22 /* SimulatorScreen.png in Resources */,
 				242776D91C8EAC4C0088DA22 /* Assets.xcassets in Resources */,
 				242776D71C8EAC4C0088DA22 /* Main.storyboard in Resources */,
 			);
@@ -412,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TextMatchEmail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhengxin.TextMatchEmail;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TextMatchEmail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhengxin.TextMatchEmail;
 				PRODUCT_NAME = "$(TARGET_NAME)";
